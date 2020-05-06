@@ -11,7 +11,7 @@ import org.junit.Test;
 public class PartitionUtilsTest {
 	
 	@Test
-	public void partitionTest_NormalCase() {
+	public void partitionTest_NormalCase() throws Exception {
 		
 		List<Integer> entryList = Arrays.asList(1, 2, 3, 4, 5);
 		
@@ -21,7 +21,7 @@ public class PartitionUtilsTest {
 	}
 	
 	@Test
-	public void partitionTest_WheneEmptyList() {
+	public void partitionTest_WheneEmptyList() throws Exception {
 		
 		List<Integer> entryList = Collections.emptyList();
 		
